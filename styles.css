@@ -1,4 +1,25 @@
 h1 {
     text-align: center;
     text-decoration: underline;
+    background-color: orange;
 }
+
+h2 {
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+div.image {
+    text-align: center;
+}
+
+.homemenu {
+   text-align: center;
+   margin-right: 40px;
+   list-style-type: none;
+   background-color: orange;
+}
+
