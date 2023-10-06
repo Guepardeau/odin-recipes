@@ -3,6 +3,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
+  body {
+    background-color: navajowhite;
+}
+
 .homeheader {
     width: 370px;
     margin: auto;
@@ -40,6 +44,29 @@ a:hover {
     font-weight: bold;
 }
 
-body {
-    background-color: navajowhite;
+.recipeheadercontainer {
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    height: 338px;
+}
+
+.recipeheading {
+    width: 500px;
+    text-align: left;
+    font-size: x-small;
+    margin-left: 320px;
+    padding-left: 8px
+}
+
+.recipeimage {
+    margin-top: -50px;
+    padding: 8px;
+    
+}
+
+.recipedesc {
+    width: 500px;
+    margin-left: 320px;
+    padding: 8px;
+    margin-top: -300px;
 }
