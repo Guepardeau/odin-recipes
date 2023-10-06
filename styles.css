@@ -15,6 +15,7 @@
 .homeimage {
     width: 400px;
     margin: auto;
+    mix-blend-mode: multiply;
 }
 
 .homemenucontainer {
@@ -37,4 +38,8 @@
 a:hover {
     color: orangered;
     font-weight: bold;
+}
+
+body {
+    background-color: navajowhite;
 }
