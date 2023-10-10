@@ -8,104 +8,51 @@
 }
 
 #pagecontainer {
-    width: 660px;
-    border: 5px solid black;
+    width: 800px;
+    margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 85px;
-}
-
-.logo {
-    float: left;
-    margin-top: -80px;
-    padding-left: 20px;
-    mix-blend-mode: multiply;
-}
-
-.author {
-    float: right;
-    margin-top: -90px;
-    padding-right: 20px;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.home.header {
-    width: 370px;
-    margin: auto;
+    background-color: blanchedalmond;
     border: 5px solid black;
-    background-color: orangered;
-    text-align: center;
-    text-decoration: underline;
 }
 
-.home.image {
-    width: 400px;
-    margin: auto;
+.recipe {
+    /* border: 2px solid red; */
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+div.logo {
     mix-blend-mode: multiply;
 }
 
-.home.menu.container {
-   width: 380px;
-   height: 200px;
-   margin: auto;
-   text-align: center;
-   padding-right: 40px;
-   padding-top: 1px;
-   padding-bottom: 1px;
-   background-color: blanchedalmond;
-   border: 5px solid black;
-}
-
-.home.menu.text {
+ul.links {
+    display: flex;
+    gap: 32px;
     list-style-type: none;
-    margin-bottom: 8px;
-}
-
-a:hover {
-    color: orangered;
-    font-weight: bold;
 }
 
 .recipe.header.container {
     display: flex;
+    width: 790px;
+    gap: 8px;
     padding: 8px;
-    background-color: blanchedalmond;
-    height: 210px;
-    width: 650px;
+    border: 2px solid red;
 }
 
-.recipe {
-    border: 2px soslid red;
+.recipe.heading {
 }
 
-.recipe.image {
-  order: -1;
-  margin-top: 10px;
-
-}
-
-div.recipe.heading {
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
-    order: 0;
-    font-size: x-small;
+.recipe h1 {
+    font-size: large;
     text-align: center;
 }
 
 .recipe.desc {
-    font-size: 16px;
-}
-
-.recipe.desc.salmon {
-    font-size: 12px;
-}
-
-.recipe.desc.oats {
-    font-size: 15px;
-}
-
-.recipe.image.salmon {
-    align-self: center;
+    font-size: 14.5px;
 }
