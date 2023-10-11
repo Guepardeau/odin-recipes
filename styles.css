@@ -7,6 +7,7 @@
     background-color: #89cff0;
 }
 
+/* borders page content */
 #pagecontainer {
     width: 1050px;
     margin-left: auto;
@@ -16,9 +17,10 @@
     background-color: navajowhite;
 }
 
-.recipe {
-     /* border: 2px solid red; */
+.home{
+
 }
+
 
 /* Displays Navigation at top of Web Page and allows for links to other recipes as well as the home page. */
 nav.container {
@@ -70,7 +72,7 @@ nav.container {
         align-self: center;
     }
 
-    /*  */
+    /* Style + Flex Recipe Ingredients and Method */
 
     .main.container {
         display: flex;
@@ -81,28 +83,28 @@ nav.container {
         padding: 60px;      
     }
 
-    .recipe.ingredients.container {
-        background-color: papayawhip;
-        border: 5px solid black;
-        padding: 60px;
-    }
+        .recipe.ingredients.container {
+            background-color: papayawhip;
+            border: 5px solid black;
+            padding: 60px;
+        }
 
-    .recipe.method.container {
-        background-color: papayawhip;
-        border: 5px solid black;
-        padding: 60px;    
-    }
+        .recipe.method.container {
+            background-color: papayawhip;
+            border: 5px solid black;
+            padding: 60px;    
+        }
+        
+        .recipe.method.content {
+             text-align: justify;
+        }
 
-    h2 {
-        margin-top: -30px;
+        h2 {
+            margin-top: -30px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        h4 {
         text-decoration: underline;
-        text-align: center;
-    }
-
-    h4 {
-    text-decoration: underline;
-    }
-
-    .recipe.method.content {
-        text-align: justify;
-    }
+        }
