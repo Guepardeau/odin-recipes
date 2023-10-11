@@ -37,15 +37,20 @@ ul.links {
     list-style-type: none;
 }
 
+/* This styles the recipe header using flexbox. Recipe Image, Title and Description are affected with the code below. */
 .recipe.header.container {
     display: flex;
     width: 790px;
     gap: 8px;
     padding: 8px;
-    border: 2px solid red;
+    border-bottom: 5px solid black;
 }
 
 .recipe.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
 
 .recipe h1 {
@@ -54,5 +59,9 @@ ul.links {
 }
 
 .recipe.desc {
-    font-size: 14.5px;
+    text-align: center;
+}
+
+.recipe.image {
+    align-self: center;
 }
