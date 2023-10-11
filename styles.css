@@ -6,7 +6,7 @@
   body {
     background-color: navajowhite;
 }
-
+ /* Borders content in Web Page */
 #pagecontainer {
     width: 800px;
     margin-top: 16px;
@@ -20,6 +20,7 @@
     /* border: 2px solid red; */
 }
 
+/* Displays Navigation at top of Web Page and allows for links to other recipes as well as the home page. */
 nav.container {
     display: flex;
     justify-content: space-between;
@@ -27,15 +28,15 @@ nav.container {
     border-bottom: 5px solid black;
 }
 
-div.logo {
-    mix-blend-mode: multiply;
-}
+    div.logo {
+        mix-blend-mode: multiply;
+    }
 
-ul.links {
-    display: flex;
-    gap: 32px;
-    list-style-type: none;
-}
+    ul.links {
+        display: flex;
+        gap: 24px;
+        list-style-type: none;
+    }
 
 /* This styles the recipe header using flexbox. Recipe Image, Title and Description are affected with the code below. */
 .recipe.header.container {
@@ -46,22 +47,23 @@ ul.links {
     border-bottom: 5px solid black;
 }
 
-.recipe.heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-}
+    .recipe.heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
 
-.recipe h1 {
-    font-size: large;
-    text-align: center;
-}
+    .recipe h1 {
+        font-size: large;
+        text-align: center;
+    }
 
-.recipe.desc {
-    text-align: center;
-}
+    .recipe.desc {
+        text-align: center;
+    }
 
-.recipe.image {
-    align-self: center;
-}
+    .recipe.image {
+        align-self: center;
+    }
+
