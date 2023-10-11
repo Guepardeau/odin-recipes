@@ -4,10 +4,55 @@
   }
 
   body {
-    background-color: #89cff0;
+    background-color: seagreen;
+}
+/* borders and centers home content */
+
+#homecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: papayawhip;
+    border: 5px solid black;
+
 }
 
-/* borders page content */
+.home.header {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orangered;
+    border: 5px solid black;
+}
+
+.home.image {
+    mix-blend-mode: multiply;
+    margin-top: 20px;
+}
+
+.home ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+a:hover {
+    color: orangered;
+}
+
+
+/* borders recipe page content */
 #pagecontainer {
     width: 1050px;
     margin-left: auto;
@@ -17,9 +62,6 @@
     background-color: navajowhite;
 }
 
-.home{
-
-}
 
 
 /* Displays Navigation at top of Web Page and allows for links to other recipes as well as the home page. */
