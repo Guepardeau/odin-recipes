@@ -4,20 +4,20 @@
   }
 
   body {
-    background-color: navajowhite;
+    background-color: #89cff0;
 }
- /* Borders content in Web Page */
+
 #pagecontainer {
-    width: 800px;
-    margin-top: 16px;
+    width: 1050px;
     margin-left: auto;
     margin-right: auto;
-    background-color: blanchedalmond;
+    margin-top: 60px;
     border: 5px solid black;
+    background-color: navajowhite;
 }
 
 .recipe {
-    /* border: 2px solid red; */
+     /* border: 2px solid red; */
 }
 
 /* Displays Navigation at top of Web Page and allows for links to other recipes as well as the home page. */
@@ -25,7 +25,8 @@ nav.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid black;
+    border: 5px solid black;
+    background-color: navajowhite;
 }
 
     div.logo {
@@ -39,12 +40,14 @@ nav.container {
     }
 
 /* This styles the recipe header using flexbox. Recipe Image, Title and Description are affected with the code below. */
-.recipe.header.container {
+
+.recipe.header {
     display: flex;
-    width: 790px;
-    gap: 8px;
-    padding: 8px;
-    border-bottom: 5px solid black;
+    margin: 60px;
+    padding: 30px;
+    background-color: papayawhip;
+    border: 5px solid black;
+    
 }
 
     .recipe.heading {
@@ -67,3 +70,39 @@ nav.container {
         align-self: center;
     }
 
+    /*  */
+
+    .main.container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: -60px;
+        gap: 30px;  
+        padding: 60px;      
+    }
+
+    .recipe.ingredients.container {
+        background-color: papayawhip;
+        border: 5px solid black;
+        padding: 60px;
+    }
+
+    .recipe.method.container {
+        background-color: papayawhip;
+        border: 5px solid black;
+        padding: 60px;    
+    }
+
+    h2 {
+        margin-top: -30px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    h4 {
+    text-decoration: underline;
+    }
+
+    .recipe.method.content {
+        text-align: justify;
+    }
